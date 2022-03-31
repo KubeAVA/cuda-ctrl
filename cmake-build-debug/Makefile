@@ -153,6 +153,30 @@ src/cuda_entries.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda-ctrl.dir/build.make CMakeFiles/cuda-ctrl.dir/src/cuda_entries.cpp.s
 .PHONY : src/cuda_entries.cpp.s
 
+src/entry_manager.o: src/entry_manager.cpp.o
+.PHONY : src/entry_manager.o
+
+# target to build an object file
+src/entry_manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda-ctrl.dir/build.make CMakeFiles/cuda-ctrl.dir/src/entry_manager.cpp.o
+.PHONY : src/entry_manager.cpp.o
+
+src/entry_manager.i: src/entry_manager.cpp.i
+.PHONY : src/entry_manager.i
+
+# target to preprocess a source file
+src/entry_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda-ctrl.dir/build.make CMakeFiles/cuda-ctrl.dir/src/entry_manager.cpp.i
+.PHONY : src/entry_manager.cpp.i
+
+src/entry_manager.s: src/entry_manager.cpp.s
+.PHONY : src/entry_manager.s
+
+# target to generate assembly for a file
+src/entry_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda-ctrl.dir/build.make CMakeFiles/cuda-ctrl.dir/src/entry_manager.cpp.s
+.PHONY : src/entry_manager.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... src/cuda_entries.o"
 	@echo "... src/cuda_entries.i"
 	@echo "... src/cuda_entries.s"
+	@echo "... src/entry_manager.o"
+	@echo "... src/entry_manager.i"
+	@echo "... src/entry_manager.s"
 .PHONY : help
 
 

@@ -81,12 +81,12 @@ clean: CMakeFiles/cuda-ctrl.dir/clean
 CMakeFiles/cuda-ctrl.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda-ctrl.dir/build.make CMakeFiles/cuda-ctrl.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda-ctrl.dir/build.make CMakeFiles/cuda-ctrl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pttq/project/cuda-ctrl/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target cuda-ctrl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pttq/project/cuda-ctrl/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target cuda-ctrl"
 .PHONY : CMakeFiles/cuda-ctrl.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cuda-ctrl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pttq/project/cuda-ctrl/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pttq/project/cuda-ctrl/cmake-build-debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cuda-ctrl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pttq/project/cuda-ctrl/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/cuda-ctrl.dir/rule

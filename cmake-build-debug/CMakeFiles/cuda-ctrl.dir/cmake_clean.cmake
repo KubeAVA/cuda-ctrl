@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cuda-ctrl.dir/src/cuda_entries.cpp.o"
+  "CMakeFiles/cuda-ctrl.dir/src/entry_manager.cpp.o"
   "libcuda-ctrl.pdb"
   "libcuda-ctrl.so"
 )

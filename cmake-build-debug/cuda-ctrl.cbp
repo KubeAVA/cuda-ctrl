@@ -87,10 +87,16 @@
 		<Unit filename="/home/pttq/project/cuda-ctrl/include/cuda_defines.h">
 			<Option target="cuda-ctrl"/>
 		</Unit>
-		<Unit filename="/home/pttq/project/cuda-ctrl/include/cuda_functions.h">
+		<Unit filename="/home/pttq/project/cuda-ctrl/include/entry_enum.h">
+			<Option target="cuda-ctrl"/>
+		</Unit>
+		<Unit filename="/home/pttq/project/cuda-ctrl/include/entry_manager.h">
 			<Option target="cuda-ctrl"/>
 		</Unit>
 		<Unit filename="/home/pttq/project/cuda-ctrl/src/cuda_entries.cpp">
+			<Option target="cuda-ctrl"/>
+		</Unit>
+		<Unit filename="/home/pttq/project/cuda-ctrl/src/entry_manager.cpp">
 			<Option target="cuda-ctrl"/>
 		</Unit>
 		<Unit filename="/home/pttq/project/cuda-ctrl/CMakeLists.txt">
