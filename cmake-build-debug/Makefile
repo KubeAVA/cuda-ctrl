@@ -129,30 +129,6 @@ cuda-ctrl/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda-ctrl.dir/build.make CMakeFiles/cuda-ctrl.dir/build
 .PHONY : cuda-ctrl/fast
 
-src/cuda_entries.o: src/cuda_entries.cpp.o
-.PHONY : src/cuda_entries.o
-
-# target to build an object file
-src/cuda_entries.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda-ctrl.dir/build.make CMakeFiles/cuda-ctrl.dir/src/cuda_entries.cpp.o
-.PHONY : src/cuda_entries.cpp.o
-
-src/cuda_entries.i: src/cuda_entries.cpp.i
-.PHONY : src/cuda_entries.i
-
-# target to preprocess a source file
-src/cuda_entries.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda-ctrl.dir/build.make CMakeFiles/cuda-ctrl.dir/src/cuda_entries.cpp.i
-.PHONY : src/cuda_entries.cpp.i
-
-src/cuda_entries.s: src/cuda_entries.cpp.s
-.PHONY : src/cuda_entries.s
-
-# target to generate assembly for a file
-src/cuda_entries.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda-ctrl.dir/build.make CMakeFiles/cuda-ctrl.dir/src/cuda_entries.cpp.s
-.PHONY : src/cuda_entries.cpp.s
-
 src/entry_manager.o: src/entry_manager.cpp.o
 .PHONY : src/entry_manager.o
 
@@ -177,6 +153,30 @@ src/entry_manager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda-ctrl.dir/build.make CMakeFiles/cuda-ctrl.dir/src/entry_manager.cpp.s
 .PHONY : src/entry_manager.cpp.s
 
+src/hooks.o: src/hooks.cpp.o
+.PHONY : src/hooks.o
+
+# target to build an object file
+src/hooks.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda-ctrl.dir/build.make CMakeFiles/cuda-ctrl.dir/src/hooks.cpp.o
+.PHONY : src/hooks.cpp.o
+
+src/hooks.i: src/hooks.cpp.i
+.PHONY : src/hooks.i
+
+# target to preprocess a source file
+src/hooks.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda-ctrl.dir/build.make CMakeFiles/cuda-ctrl.dir/src/hooks.cpp.i
+.PHONY : src/hooks.cpp.i
+
+src/hooks.s: src/hooks.cpp.s
+.PHONY : src/hooks.s
+
+# target to generate assembly for a file
+src/hooks.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cuda-ctrl.dir/build.make CMakeFiles/cuda-ctrl.dir/src/hooks.cpp.s
+.PHONY : src/hooks.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cuda-ctrl"
-	@echo "... src/cuda_entries.o"
-	@echo "... src/cuda_entries.i"
-	@echo "... src/cuda_entries.s"
 	@echo "... src/entry_manager.o"
 	@echo "... src/entry_manager.i"
 	@echo "... src/entry_manager.s"
+	@echo "... src/hooks.o"
+	@echo "... src/hooks.i"
+	@echo "... src/hooks.s"
 .PHONY : help
 
 

@@ -66,18 +66,18 @@ include CMakeFiles/cuda-ctrl.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cuda-ctrl.dir/flags.make
 
-CMakeFiles/cuda-ctrl.dir/src/cuda_entries.cpp.o: CMakeFiles/cuda-ctrl.dir/flags.make
-CMakeFiles/cuda-ctrl.dir/src/cuda_entries.cpp.o: ../src/cuda_entries.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pttq/project/cuda-ctrl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cuda-ctrl.dir/src/cuda_entries.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cuda-ctrl.dir/src/cuda_entries.cpp.o -c /home/pttq/project/cuda-ctrl/src/cuda_entries.cpp
+CMakeFiles/cuda-ctrl.dir/src/hooks.cpp.o: CMakeFiles/cuda-ctrl.dir/flags.make
+CMakeFiles/cuda-ctrl.dir/src/hooks.cpp.o: ../src/hooks.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pttq/project/cuda-ctrl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cuda-ctrl.dir/src/hooks.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cuda-ctrl.dir/src/hooks.cpp.o -c /home/pttq/project/cuda-ctrl/src/hooks.cpp
 
-CMakeFiles/cuda-ctrl.dir/src/cuda_entries.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cuda-ctrl.dir/src/cuda_entries.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pttq/project/cuda-ctrl/src/cuda_entries.cpp > CMakeFiles/cuda-ctrl.dir/src/cuda_entries.cpp.i
+CMakeFiles/cuda-ctrl.dir/src/hooks.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cuda-ctrl.dir/src/hooks.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pttq/project/cuda-ctrl/src/hooks.cpp > CMakeFiles/cuda-ctrl.dir/src/hooks.cpp.i
 
-CMakeFiles/cuda-ctrl.dir/src/cuda_entries.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cuda-ctrl.dir/src/cuda_entries.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pttq/project/cuda-ctrl/src/cuda_entries.cpp -o CMakeFiles/cuda-ctrl.dir/src/cuda_entries.cpp.s
+CMakeFiles/cuda-ctrl.dir/src/hooks.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cuda-ctrl.dir/src/hooks.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pttq/project/cuda-ctrl/src/hooks.cpp -o CMakeFiles/cuda-ctrl.dir/src/hooks.cpp.s
 
 CMakeFiles/cuda-ctrl.dir/src/entry_manager.cpp.o: CMakeFiles/cuda-ctrl.dir/flags.make
 CMakeFiles/cuda-ctrl.dir/src/entry_manager.cpp.o: ../src/entry_manager.cpp
@@ -94,13 +94,13 @@ CMakeFiles/cuda-ctrl.dir/src/entry_manager.cpp.s: cmake_force
 
 # Object files for target cuda-ctrl
 cuda__ctrl_OBJECTS = \
-"CMakeFiles/cuda-ctrl.dir/src/cuda_entries.cpp.o" \
+"CMakeFiles/cuda-ctrl.dir/src/hooks.cpp.o" \
 "CMakeFiles/cuda-ctrl.dir/src/entry_manager.cpp.o"
 
 # External object files for target cuda-ctrl
 cuda__ctrl_EXTERNAL_OBJECTS =
 
-libcuda-ctrl.so: CMakeFiles/cuda-ctrl.dir/src/cuda_entries.cpp.o
+libcuda-ctrl.so: CMakeFiles/cuda-ctrl.dir/src/hooks.cpp.o
 libcuda-ctrl.so: CMakeFiles/cuda-ctrl.dir/src/entry_manager.cpp.o
 libcuda-ctrl.so: CMakeFiles/cuda-ctrl.dir/build.make
 libcuda-ctrl.so: CMakeFiles/cuda-ctrl.dir/link.txt

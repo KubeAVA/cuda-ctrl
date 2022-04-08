@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pttq/project/cuda-ctrl/src/cuda_entries.cpp" "/home/pttq/project/cuda-ctrl/cmake-build-debug/CMakeFiles/cuda-ctrl.dir/src/cuda_entries.cpp.o"
   "/home/pttq/project/cuda-ctrl/src/entry_manager.cpp" "/home/pttq/project/cuda-ctrl/cmake-build-debug/CMakeFiles/cuda-ctrl.dir/src/entry_manager.cpp.o"
+  "/home/pttq/project/cuda-ctrl/src/hooks.cpp" "/home/pttq/project/cuda-ctrl/cmake-build-debug/CMakeFiles/cuda-ctrl.dir/src/hooks.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,1 +1,1 @@
-/usr/bin/g++ -fPIC -g -shared -Wl,-soname,libcuda-ctrl.so -o libcuda-ctrl.so CMakeFiles/cuda-ctrl.dir/src/cuda_entries.cpp.o CMakeFiles/cuda-ctrl.dir/src/entry_manager.cpp.o 
+/usr/bin/g++ -fPIC -g -shared -Wl,-soname,libcuda-ctrl.so -o libcuda-ctrl.so CMakeFiles/cuda-ctrl.dir/src/hooks.cpp.o CMakeFiles/cuda-ctrl.dir/src/entry_manager.cpp.o  -static-libgcc -static-libstdc++ 
