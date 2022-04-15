@@ -3,15 +3,16 @@
 
 #include <string>
 #include <vector>
+#include <dlfcn.h>
 
 #include "hooks.h"
+#include "log.h"
 
-#define CUDA_LIB_NAME "libcuda.so"
+#define CUDA_LIB_NAME "libcuda.so.1"
 
 struct entry_t {
     std::string func_name;
     void *func_ptr;
-    entry_t();
 };
 
 class EntryManager {
@@ -20,7 +21,9 @@ class EntryManager {
     std::vector<entry_t> cuda_entry;
 public:
     EntryManager();
-
+    void load_func_name();
+    void load_func_ptr();
+    void *get_func_ptr(int id);
 };
 
 #endif //CUDA_CTRL_ENTRY_MANAGER_H

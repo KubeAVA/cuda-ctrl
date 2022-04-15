@@ -102,6 +102,9 @@
 		<Unit filename="/home/pttq/project/cuda-ctrl/src/hooks.cpp">
 			<Option target="cuda-ctrl"/>
 		</Unit>
+		<Unit filename="/home/pttq/project/cuda-ctrl/src/log.cpp">
+			<Option target="cuda-ctrl"/>
+		</Unit>
 		<Unit filename="/home/pttq/project/cuda-ctrl/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

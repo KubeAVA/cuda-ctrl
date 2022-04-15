@@ -10,6 +10,7 @@ add_library(cuda-ctrl SHARED
         include/hooks.h
         include/log.h
         src/hooks.cpp
-        src/entry_manager.cpp)
+        src/entry_manager.cpp
+        src/log.cpp)
 
-target_link_libraries(cuda-ctrl ${STATIC_C_LIBRARIES})
+target_link_libraries(cuda-ctrl ${STATIC_C_LIBRARIES} -ldl)
