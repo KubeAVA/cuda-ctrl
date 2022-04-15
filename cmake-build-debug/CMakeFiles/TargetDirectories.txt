@@ -1,3 +1,0 @@
-/home/pttq/project/cuda-ctrl/cmake-build-debug/CMakeFiles/cuda-ctrl.dir
-/home/pttq/project/cuda-ctrl/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/pttq/project/cuda-ctrl/cmake-build-debug/CMakeFiles/rebuild_cache.dir
