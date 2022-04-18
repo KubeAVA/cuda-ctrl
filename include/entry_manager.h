@@ -5,10 +5,13 @@
 #include <vector>
 #include <dlfcn.h>
 
+#include "../include/cuda_defines.h"
 #include "hooks.h"
 #include "log.h"
 
 #define CUDA_LIB_NAME "libcuda.so.1"
+
+typedef CUresult (*cuda_func_t)(...);
 
 struct entry_t {
     std::string func_name;
